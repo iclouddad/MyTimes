@@ -1,0 +1,177 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: white;
+  top: 0;
+  left: 0;
+  }
+.logo {
+  display: flex;
+  flex-flow: 1;
+  padding-left: 30px;
+  align-items: center;
+  width: 356px;
+  }
+.logo span {
+  color: MediumAquamarine;
+}
+.logo img {
+  margin-right: 12px;
+}
+nav {
+  padding-right: 40px;
+}
+nav span {
+  display: inline-block;;
+  padding: 20px 10px;
+}
+a {
+  color: black;
+}
+div {
+  border: 1px none black;
+}
+.column {
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.column .large {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 20PX;
+}
+.column .medium {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 15px;
+}
+.column .small {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.mainstory {
+  display: block;
+
+}
+.story {
+  display: flex;
+  justify-content: space-between;
+}
+.sidestory {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.img1 {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  justify-content: center;
+}
+.img2 {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+  justify-content: center;
+}
+.img3 {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  justify-content: center;
+}
+.img4 {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+  justify-content: center;
+}
+.subhead {
+  font-size: 35px;
+}
+.text {
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+}
+.column span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  align-self: center;
+  text-align: center;
+}
+.column .mother {
+  font-size: 40px;
+}
+.newsbites{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  }
+  h2.news {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  span.news {
+    background-color: Whitesmoke;
+    font-family: verdana;
+    font-size: 12px;
+    color: dimgray;
+    padding: 11px 20px;
+    display: block;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: 240px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumaquamarine;
+    margin: auto;
+    font-family: verdana;
+    font-size: 12px;
+    height: 325px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .footertext {
+    display: inline-block;
+    font-family: georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-right: 25px;
+    border-right: 2px solid white;
+
+  }
+  .footer nav {
+    padding-left: 25px;
+    display: inline-block;
+  }
+  .footer .text {
+    padding: 10px 10px;
+  }
